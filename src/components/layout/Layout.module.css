@@ -1,0 +1,57 @@
+
+.app{
+    
+    font-family: Arial, Helvetica, sans-serif
+} 
+
+.nave{
+width: 100%;
+padding: 0.5rem 1rem;
+color: #ffffff;
+background-color: #333;
+display: flex;
+align-items: center;
+justify-content: space-between;
+} 
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navItem{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main{
+    width: 70%;
+    margin: 1rem auto;
+
+}
+.footer{
+    background-color: #666;
+    color: #fafafa;
+    padding: 2rem 4rem;
+   
+}
+.footer h3{
+    margin-bottom: 1rem;
+     font-weight: bold;
+}
+.footer ul li{
+    list-style: none;
+    margin-bottom: 0.5rem;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.navItemActive{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
+footer .navItemActive{
+    color: #73d3ff;
+}
