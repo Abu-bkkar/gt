@@ -7,7 +7,7 @@ import ShowTasks from "../components/tasks/ShowTasks";
 
 
 function Tasks() {
-    const [tasks, setTasks] = useState([]);
+    const [tasks, setTasks] = useState(["Hello"]);
     const [visibility, setVisibility] = useState('all');
 
     const addNewTask = (text) => {
